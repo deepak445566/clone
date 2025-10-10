@@ -11,8 +11,8 @@ const app = express();
 // CORS Configuration for Production
 const allowedOrigins = [
   'http://localhost:5173',
-  'http://127.0.0.1:5173',
-  'https://your-app-name.netlify.app' // Replace with your Netlify URL
+  
+  'https://despaclasses.netlify.app' // Replace with your Netlify URL
 ];
 
 app.use(cors({

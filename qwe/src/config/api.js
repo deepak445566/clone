@@ -1,5 +1,5 @@
 // src/config/api.js
-const API_BASE_URL =  'http://localhost:5000';
+const API_BASE_URL = 'https://clone-8nub.onrender.com';
 
 export const API_ENDPOINTS = {
   login: `${API_BASE_URL}/api/login`,
