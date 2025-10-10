@@ -42,10 +42,11 @@ app.use('/api', certificateRoutes);
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../frontend/dist')));
   
-  app.get('*', (req, res) => {
+  app.get('/*', (req, res) => {   // FIXED HERE
     res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
   });
 }
+
 
 // Home route
 app.get('/', (req, res) => {
