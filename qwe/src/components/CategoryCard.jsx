@@ -10,12 +10,12 @@ const CategoryCard = ({ id, title, tags, iconUrl, iconBgColor }) => {
     >
       {/* Left Section */}
       <div className="flex flex-col space-y-4">
-        <h2 className="text-2xl font-bold magnet bebas-neue-regular">{title}</h2>
+        <h2 className="text-lg font-semibold  magnet mont">{title}</h2>
         <div className="flex flex-wrap gap-2">
-          {tags.map((tag, index) => (
+          {tags.slice(0, 3).map((tag, index) => (
             <span
               key={index}
-              className="px-4 py-2 border-2 border-black rounded-full text-black hover:bg-gray-100"
+              className="px-2 py-2 border-2 border-black rounded-full text-black hover:bg-gray-100"
             >
               {tag}
             </span>
@@ -30,7 +30,7 @@ const CategoryCard = ({ id, title, tags, iconUrl, iconBgColor }) => {
       <div
         className={`rounded-full p-4 flex items-center justify-center ${iconBgColor}`}
       >
-        <img src={iconUrl} alt={`${title} icon`} className="w-12 h-12" />
+        <img src={iconUrl} alt={`${title} icon`} className="w-12 h-10" />
       </div>
     </Link>
   );

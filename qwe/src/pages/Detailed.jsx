@@ -54,13 +54,7 @@ const Detailed = () => {
           </p>
 
           {/* PDF Download */}
-          <a
-            href={course.pdf}
-            download
-            className="bg-violet-600 text-white px-6 py-3 rounded-full hover:bg-violet-700 transition w-max"
-          >
-            📄 Download PDF
-          </a>
+         
         </div>
       </div>
     </div>
