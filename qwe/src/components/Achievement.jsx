@@ -7,22 +7,22 @@ const Achievement = () => {
     {
      
       image:
-        "images/image13.jpg",
+        "images/cert1.jpg",
     },
     {
 
       image:
-        "images/image3.jpg",
+        "images/cert4.jpg",
     },
     {
     
       image:
-        "images/image.jpg",
+        "images/cert3.jpg",
     },
     {
      
       image:
-        "images/image12.jpg",
+        "images/cert5.jpg",
     },
   ];
 

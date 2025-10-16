@@ -3,7 +3,7 @@ import AnimatedButton from "./v1/AnimatedButton";
 
 function About() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-30 max-md:px-4 -mt-5 lg:mt-20" id='about'>
+    <section className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-30 max-md:px-4 -mt-5 lg:mt-20 mont" id='about'>
       
       <h1 className=" relative group text-3xl lg:text-6xl  uppercase font-semibold   bebas-neue-regular  lg:hidden text-slate-700 -ml-55 ">ABOUT US
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-40"></span>
@@ -11,7 +11,7 @@ function About() {
                 <div className="relative shadow-2xl  rounded-2xl overflow-hidden shrink-0 -mt-5 lg:mt-0">
                     
                     <img className=" w-90 object-cover h-80 lg:h-100 rounded-2xl "
-                        src="/images/image10.jpg"
+                        src="/images/about1.jpg"
                         alt="" />
                     <div className="flex items-center gap-1 max-w-72 absolute bottom-8 left-8 bg-white p-2 rounded-xl">
                         <div className="flex -space-x-4 shrink-0">
@@ -31,7 +31,7 @@ function About() {
                     </div>
                 </div>
                 <div className="text-sm text-slate-600 max-w-lg -mt-10 ">
-                    <h1 className=" relative group  text-6xl  uppercase font-semibold  bebas-neue-regular hidden lg:block text-slate-700">ABOUT US
+                    <h1 className=" relative group  text-4xl  uppercase font-semibold  alan hidden lg:block text-slate-700">ABOUT US
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-40"></span>
                     </h1>
                     

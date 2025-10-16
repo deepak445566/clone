@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.mont{
+  font-family: "Montserrat", sans-serif;
+
+  font-style: normal;
+}
+
+.alan{
+  font-family: "Alan Sans", sans-serif;
+ 
+  font-style: normal;
+}

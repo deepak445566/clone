@@ -6,7 +6,7 @@ const Courses = () => {
   return (
     <div className="flex flex-col py-10 px-6 md:px-16 lg:px-24 xl:px-32">
       <h1
-        className="relative group mb-10 lg:mb-15 bebas-neue-regular lg:text-6xl text-3xl"
+        className="relative group mb-10 lg:mb-15 alan lg:text-5xl text-3xl"
         id="courses"
       >
         COURSES

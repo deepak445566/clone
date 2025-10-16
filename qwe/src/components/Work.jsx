@@ -14,32 +14,32 @@ function Work() {
 
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/imago2.jpg"
+                        src="images/img1.jpg"
                         alt="image" />
                 </div>
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/image.jpg"
+                        src="images/img10.jpg"
                         alt="image" />
                 </div>
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/image6.jpg"
+                        src="images/img3.jpg"
                         alt="image" />
                 </div>
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full hidden lg:block">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/image5.jpg"
+                        src="images/img9.jpg"
                         alt="image" />
                 </div>
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full hidden lg:block">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/image8.jpg"
+                        src="images/img5.jpg"
                         alt="image" />
                 </div>
                 <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full hidden lg:block">
                     <img className="h-full w-full object-cover object-center"
-                        src="images/image2.jpg"
+                        src="images/img8.jpg"
                         alt="image" />
                 </div>
             </div>

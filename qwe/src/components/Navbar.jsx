@@ -20,11 +20,11 @@ const Navbar = () => {
       </HashLink>
 
       {/* Desktop Menu */}
-      <ul className="text-black md:flex hidden items-center gap-7 text-2xl">
+      <ul className="text-black md:flex hidden items-center gap-7 text-md">
         <li>
           <HashLink
             smooth
-            className="relative group bebas-neue-regular"
+            className="relative group alan"
             to="/#"
           >
             HOME
@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group bebas-neue-regular"
+            className="relative group alan"
             to="/#about"
           >
             ABOUT
@@ -44,7 +44,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group bebas-neue-regular"
+            className="relative group alan"
             to="/#courses"
           >
             COURSES
@@ -54,7 +54,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group bebas-neue-regular"
+            className="relative group alan"
             to="/#work"
           >
             WORK
@@ -64,7 +64,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group bebas-neue-regular"
+            className="relative group alan"
             to="/#achievement"
           >
             ACHIEVEMENT

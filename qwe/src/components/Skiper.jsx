@@ -3,11 +3,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import ReactLenis from "lenis/react";
 
 const projects = [
-  { title: "Project 1", src: "/images/image1.jpg" },
-  { title: "Project 2", src: "/images/image2.jpg" },
-  { title: "Project 3", src: "/images/image4.jpg" },
-  { title: "Project 4", src: "/images/image5.jpg" },
-  { title: "Project 5", src: "/images/image8.jpg" },
+  { title: "Project 1", src: "/images/img2.jpg" },
+  { title: "Project 2", src: "/images/img3.jpg" },
+  { title: "Project 3", src: "/images/img5.jpg" },
+  { title: "Project 4", src: "/images/img6.jpg" },
+  { title: "Project 5", src: "/images/img9.jpg" },
 ];
 
 const StickyCard_001 = ({ i, title, src, progress, range, targetScale }) => {

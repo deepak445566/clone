@@ -8,15 +8,15 @@ const ImageSlider = () => {
   // --- DATA ---
   // Arrays of images for mobile and desktop
   const mobileSlides = [
-    { url: '/images/banner.jpg' },
-    { url: 'images/image4.jpg' },
-    { url: 'images/image4.jpg' },
+    { url: '/images/banner8.jpg' },
+    { url: 'images/banner9.jpg' },
+    { url: 'images/banner7.jpg' },
   ];
 
   const laptopSlides = [
-    { url: '/images/banner.jpg' },
-    { url: 'images/image4.jpg' },
-    { url: 'images/image1.jpg' },
+    { url: 'images/banner1.jpg' },
+    { url: 'images/banner2.jpg' },
+    { url: 'images/banner3.jpg' },
   ];
   
   // Combine for easy access, assuming laptop slides are primary for navigation logic

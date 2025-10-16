@@ -10,13 +10,13 @@ const testimonials = [
   {
     name: "Kajal",
     role: "Basic Computer",
-    image: "../../public/images/person2.jpg",
+    image: "../../public/images/person1.jpg",
     text: "I've been using imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
   },
   {
     name: "Vivek Dubay",
     role: "MS- Office",
-    image: "../../public/images/person4.jpg",
+    image: "../../public/images/person2.jpg",
     text: "I've been using imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
   },
 ];
@@ -39,12 +39,12 @@ const Star = () => (
 export default function Review() {
   return (
     <>
-<h1 className='relative group bebas-neue-regular text-6xl ml-8 lg:ml-35 mt-10'>REVIEWS
+<h1 className='relative group bebas-neue-regular text-4xl lg:text-6xl ml-8 lg:ml-35 mt-30'>REVIEWS
      <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-25"></span>
 </h1>
   
   
-    <div className="flex flex-wrap items-center justify-center gap-6 pt-14 mt-15">
+    <div className="flex flex-wrap items-center justify-center gap-19 pt-14 mt-15  ">
       {testimonials.map((t, index) => (
         <div
           key={index}
