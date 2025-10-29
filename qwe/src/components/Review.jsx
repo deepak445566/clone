@@ -4,20 +4,20 @@ const testimonials = [
   {
     name: "ishu",
     role: "Excel",
-    image: "../../public/images/person3.jpg",
-    text: "I've been using imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
+    image: "/images/person3.jpg",
+    text: "Excel classes were very practical and clear. I learned formulas, charts, and data handling with confidence. Very helpful course.",
   },
   {
     name: "Kajal",
     role: "Basic Computer",
-    image: "../../public/images/person1.jpg",
-    text: "I've been using imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
+    image: "/images/person1.jpg",
+    text: "Basic computer classes were very easy to understand. I learned typing, MS Office, and internet use with confidence. Excellent teaching.",
   },
   {
     name: "Vivek Dubay",
-    role: "MS- Office",
-    image: "../../public/images/person2.jpg",
-    text: "I've been using imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
+    role: "Basic Computer",
+    image: "/images/person2.jpg",
+    text: "Basic computer classes were very easy to understand. I learned typing, MS Office, and internet use with confidence. Excellent teaching.",
   },
 ];
 
@@ -39,8 +39,8 @@ const Star = () => (
 export default function Review() {
   return (
     <>
-<h1 className='relative group bebas-neue-regular text-4xl lg:text-6xl ml-8 lg:ml-35 mt-30'>REVIEWS
-     <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-25"></span>
+<h1 className='relative group big text-4xl lg:text-6xl ml-8 lg:ml-35 mt-30'>REVIEWS
+  
 </h1>
   
   

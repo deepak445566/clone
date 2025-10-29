@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-30 max-md:px-4 -mt-5 lg:mt-20 mont" id='about'>
       
-      <h1 className=" relative group text-3xl lg:text-6xl  uppercase font-semibold   bebas-neue-regular  lg:hidden text-slate-700 -ml-55 ">ABOUT US
+      <h1 className=" relative group text-3xl lg:text-6xl  uppercase font-semibold big  lg:hidden text-slate-700 -ml-55 ">ABOUT US
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-40"></span>
                     </h1>
                 <div className="relative shadow-2xl  rounded-2xl overflow-hidden shrink-0 -mt-5 lg:mt-0">
@@ -15,11 +15,11 @@ function About() {
                         alt="" />
                     <div className="flex items-center gap-1 max-w-72 absolute bottom-8 left-8 bg-white p-2 rounded-xl">
                         <div className="flex -space-x-4 shrink-0">
-                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200" alt="image"
+                            <img src="/images/person3.jpg" alt="image"
                                 className="size-9 rounded-full border-[3px] border-white hover:-translate-y-1 transition z-1" />
-                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="image"
+                            <img src="/images/person1.jpg" alt="image"
                                 className="size-9 rounded-full border-[3px] border-white hover:-translate-y-1 transition z-[2]" />
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop"
+                            <img src="/images/person2.jpg"
                                 alt="image"
                                 className="size-9 rounded-full border-[3px] border-white hover:-translate-y-1 transition z-[3]" />
                             <div
@@ -31,8 +31,8 @@ function About() {
                     </div>
                 </div>
                 <div className="text-sm text-slate-600 max-w-2xl -mt-10 ">
-                    <h1 className=" relative group  text-4xl  uppercase font-semibold  alan hidden lg:block text-slate-700">ABOUT US
-                        <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-40"></span>
+                    <h1 className=" relative group  text-5xl  uppercase font-semibold  big hidden lg:block text-slate-700">ABOUT US
+                     
                     </h1>
                     
                     <p className="mt-5 font-semibold ">Despa Computer educational society  was established in 2017 to promote academic & technical education to society in affordable fees. DCC society runs a coaching & computer institute from more than 15 years. DCC  is primarily engaged in the areas of skill development and training .</p>

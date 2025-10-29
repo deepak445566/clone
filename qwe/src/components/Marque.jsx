@@ -3,16 +3,15 @@ import Marquee from "react-fast-marquee";
 
 function Marque() {
   return (
-   <Marquee
-  gradient={false}
-  speed={200}
-  className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 py-3"
->
-  <span className="text-white text-2xl font-semibold tracking-widest uppercase drop-shadow-lg ">
-    DESPA CLASSES || DESPA CLASSES || DESPA CLASSES || DESPA CLASSES  DESPA CLASSES || DESPA CLASSES || DESPA CLASSES || DESPA CLASSES  DESPA CLASSES || DESPA CLASSES || DESPA CLASSES || DESPA CLASSES 
-  </span>
-</Marquee>
-
+    <Marquee
+      gradient={false}
+      speed={100}
+      className="bg-gray-900 py-3 border-y border-gray-300"
+    >
+      <span className="text-white text-lg font-semibold tracking-wide uppercase mx-6">
+        ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦  ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦ DESPA CLASSES ✦
+      </span>
+    </Marquee>
   );
 }
 

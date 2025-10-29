@@ -41,7 +41,7 @@ const Skiper = () => {
   return (
 <>
 <div>
-  <h1 className='relative group bebas-neue-regular text-3xl lg:text-6xl ml-8 lg:ml-35   mt-20 '>WORKS
+  <h1 className='relative group big text-3xl lg:text-6xl ml-8 lg:ml-35   mt-20 '>WORKS
        <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-25"></span>
   </h1>
 

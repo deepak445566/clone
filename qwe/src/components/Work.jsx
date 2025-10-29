@@ -4,7 +4,7 @@ function Work() {
   return (
   <>
   <div className=' hidden lg:block ' id='work'>
-<h1 className='relative group bebas-neue-regular text-6xl ml-8 lg:ml-35'>VIBES
+<h1 className='relative group big text-6xl ml-8 lg:ml-35'>VIBES
      <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-25"></span>
 </h1>
   

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import logo from "../assets/logo.jpg";
+
 import "../App.css";
 import AnimatedButton from "./v1/AnimatedButton";
 import { Link } from "react-router-dom";
@@ -16,15 +16,15 @@ const Navbar = () => {
     <nav className="h-[100px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
       {/* Logo */}
       <HashLink smooth to="/#">
-        <img src={logo} className="h-20" alt="logo" />
+        <img src="./images/logo.jpg" className="h-20" alt="logo" />
       </HashLink>
 
       {/* Desktop Menu */}
-      <ul className="text-black md:flex hidden items-center gap-7 text-md">
+      <ul className="text-black md:flex hidden items-center gap-7 text-xl font-semibold ">
         <li>
           <HashLink
             smooth
-            className="relative group alan"
+            className="relative group big"
             to="/#"
           >
             HOME
@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group alan"
+            className="relative group big"
             to="/#about"
           >
             ABOUT
@@ -44,7 +44,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group alan"
+            className="relative group big"
             to="/#courses"
           >
             COURSES
@@ -54,7 +54,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group alan"
+            className="relative group big"
             to="/#work"
           >
             WORK
@@ -64,7 +64,7 @@ const Navbar = () => {
         <li>
           <HashLink
             smooth
-            className="relative group alan"
+            className="relative group big"
             to="/#achievement"
           >
             ACHIEVEMENT
@@ -87,7 +87,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/owner/login"
-            className="relative group bebas-neue-regular text-sm bg-violet-100 px-3 py-1 rounded-full hover:bg-violet-200 transition"
+            className="relative group bebas-neue-regular text-sm bg-violet-100 px-3 py-2 rounded-full hover:bg-violet-200 transition"
           >
             Owner
           </Link>

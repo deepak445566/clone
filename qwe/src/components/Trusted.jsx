@@ -50,7 +50,7 @@ const Trusted = () => {
       label: "Courses Running",
       bgColor: "rgb(227, 243, 255)",
       imgUrl:
-        "/images/image9.webp",
+        "https://static.pw.live/5b09189f7285894d9130ccd0/4f6749a2-e834-4c08-81ff-c42330f9bf87.webp",
     },
     {
       number: "10+",

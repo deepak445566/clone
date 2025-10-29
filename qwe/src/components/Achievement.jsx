@@ -28,8 +28,8 @@ const Achievement = () => {
 
   return (
     <>
-<h1 className='relative group bebas-neue-regular text-3xl lg:text-6xl ml-8 lg:ml-20 mt-20' id="achievement">OUR ACHIEVEMENT
-     <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-violet-500 transition-all group-hover:w-80"></span>
+<h1 className='relative group big text-3xl lg:text-6xl ml-8 lg:ml-20 mt-20 text-center' id="achievement">OUR ACHIEVEMENT
+     
 </h1>
   
   

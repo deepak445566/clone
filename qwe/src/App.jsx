@@ -16,6 +16,7 @@ import Team from "./components/Team";
 import OwnerLogin from "./pages/owner/OwnerLogin";
 import OwnerDashboard from "./pages/owner/OwnerDashboard";
 import UserSearch from "./pages/user/UserSearch";
+import CoursesPage from "./pages/user/CoursesPage";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -53,6 +54,8 @@ function App() {
             </>
           }
         />
+                <Route path="/courses" element={<CoursesPage />} />
+
         <Route path="/detail/:id" element={<Detailed />} />
     
 

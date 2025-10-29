@@ -143,7 +143,7 @@ const OwnerDashboard = () => {
                 </svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                <h1 className=" text-sm  lg:text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                   CertifyPro
                 </h1>
                 <p className="text-xs text-gray-400">Admin Dashboard</p>
@@ -151,12 +151,12 @@ const OwnerDashboard = () => {
             </div>
             <div className="flex items-center space-x-4">
               <div className="text-right">
-                <p className="text-sm font-medium text-white">Welcome back,</p>
+                <p className=" text-xs lg:text-sm font-medium text-white">Welcome back,</p>
                 <p className="text-xs text-gray-300">Administrator</p>
               </div>
               <button
                 onClick={handleLogout}
-                className="bg-gradient-to-r from-red-500 to-pink-600 text-white px-4 py-2 rounded-xl hover:from-red-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-red-500/25 flex items-center space-x-2"
+                className="bg-gradient-to-r from-red-500 to-pink-600 text-white px-3 py-2 rounded-xl hover:from-red-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-red-500/25 flex items-center space-x-2"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
