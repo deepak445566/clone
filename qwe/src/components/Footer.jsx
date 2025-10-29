@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer className="flex flex-col items-center justify-around w-full py-16 text-sm text-gray-800/70">
         {/* Contact Details Section */}
-        <div className="w-full max-w-4xl mb-12 px-4">
+        <div className="w-full max-w-5xl mb-12">
           <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 lg:p-12 shadow-lg border border-gray-200">
             <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center big">Get In Touch</h3>
             
@@ -19,8 +19,8 @@ function Footer() {
                 </div>
                 <h4 className="font-semibold text-gray-800 mb-2">Our Location</h4>
                 <p className="text-gray-600 text-sm">
-                  Laxmi Nagar<br />
-                  New Delhi, Delhi 110092
+                  Nandgram<br />
+                Ghaziabad, U.P 201001
                 </p>
               </div>
 
@@ -33,8 +33,8 @@ function Footer() {
                 </div>
                 <h4 className="font-semibold text-gray-800 mb-2">Contact Info</h4>
                 <p className="text-gray-600 text-sm">
-                  Phone: +91 XXXXX XXXXX<br />
-                  Email: info@despaclasses.com
+                  Phone: +91 7011652592<br />
+                  Email: despacomputerclasses@gmail.com
                 </p>
               </div>
 
@@ -47,8 +47,8 @@ function Footer() {
                 </div>
                 <h4 className="font-semibold text-gray-800 mb-2">Operating Hours</h4>
                 <p className="text-gray-600 text-sm">
-                  Mon-Sat: 8:00 AM - 8:00 PM<br />
-                  Sunday: 9:00 AM - 2:00 PM
+                  Mon-Sat: 8:00 AM - 9:00 PM<br />
+                  Sunday: Off
                 </p>
               </div>
             </div>
