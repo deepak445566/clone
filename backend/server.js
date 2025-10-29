@@ -12,7 +12,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   
-  'https://despaclass.netlify.app' // Replace with your Netlify URL
+  'https://clone-ochre-sigma.vercel.app' // Replace with your Netlify URL
 ];
 
 app.use(cors({
