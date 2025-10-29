@@ -23,7 +23,7 @@ function Team() {
             <div class="absolute bottom-0 z-10 h-40 w-full bg-gradient-to-t pointer-events-none from-black to-transparent"></div>
         </div>
         <div class="px-4 pb-6 text-center">
-            <p class="mt-4 text-lg">Sanjeev Kashyap</p>
+            <p class="mt-4 text-lg"> Yashvinder Kashyap</p>
             <p class="text-sm font-medium bg-gradient-to-r from-[#8B5CF6] via-[#9938CA] to-[#E0724A] text-transparent bg-clip-text">Manager</p>
         </div>
     </div>
@@ -33,11 +33,11 @@ function Team() {
             <div class="absolute bottom-0 z-10 h-60 w-full bg-gradient-to-t pointer-events-none from-black to-transparent"></div>
         </div>
         <div class="px-4 pb-6 text-center">
-            <p class="mt-4 text-lg">Yashvinder Kashyap</p>
+            <p class="mt-4 text-lg">Sanjeev Kashyap</p>
             <p class="text-sm font-medium bg-gradient-to-r from-[#8B5CF6] via-[#9938CA] to-[#E0724A] text-transparent bg-clip-text">Manager</p>
         </div>
     </div>
-   
+  
 </div>
   </>
   )
