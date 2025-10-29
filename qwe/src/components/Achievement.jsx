@@ -28,7 +28,7 @@ const Achievement = () => {
 
   return (
     <>
-<h1 className='relative group big text-3xl lg:text-6xl ml-8 lg:ml-20 mt-20 text-center' id="achievement">OUR ACHIEVEMENT
+<h1 className='relative group big text-3xl lg:text-6xl ml-8 lg:ml-20 mt-10 text-center' id="achievement">OUR ACHIEVEMENT
      
 </h1>
   
