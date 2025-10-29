@@ -152,7 +152,7 @@ const Trusted = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-10 py-12">
       <h1 className='relative group bebas-neue-regular text-2xl lg:text-6xl text-center lg:mt-20 '>A Platform Trusted by Students
     
 </h1>

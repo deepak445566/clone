@@ -27,21 +27,6 @@ const CoursesPage = () => {
         ))}
       </div>
 
-      {/* Additional Content */}
-      <div className="mt-16 text-center">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Can't find what you're looking for?
-        </h2>
-        <p className="text-gray-600 mb-6">
-          Contact us for custom courses and personalized learning paths.
-        </p>
-        <Link
-          to="/contact"
-          className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-300"
-        >
-          Contact Us
-        </Link>
-      </div>
     </div>
   );
 };

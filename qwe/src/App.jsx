@@ -49,8 +49,9 @@ function App() {
               <Trusted />
               <Skiper />
               <Review/>
+               <Achievement />
               <Team/>
-              <Achievement />
+             
             </>
           }
         />
