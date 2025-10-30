@@ -1,7 +1,9 @@
 import React from 'react'
 import AnimatedButton from "./v1/AnimatedButton"; 
+import { useNavigate } from 'react-router-dom';
 
 function About() {
+    const navigate = useNavigate()
   return (
     <section className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-30 max-md:px-4 -mt-5 lg:mt-20 mont" id='about'>
       
@@ -38,7 +40,7 @@ function About() {
                     <p className="mt-5 font-semibold ">Despa Computer educational society  was established in 2010 to promote academic & technical education to society in affordable fees. DCC society runs a coaching & computer institute from more than 15 years. DCC  is primarily engaged in the areas of skill development and training .</p>
                     <p className="mt-4 font-semibold">We were also a Vocational training provides.We were also runs extension center of CDTP scheme ( Under Ministry of HRD) in 2012-2015. In Our Computer Institute we are trained more than 1000 students in last 17 years. DCC is also a center in Ghaziabad. </p>
                     <p className="mt-4 font-semibold">DCC's mission is to provide training and services to empower people, generate employment for the youth and unfold entrepreneurship based initiatives to create an inclusive society. its students through an interactive, learning oriented environment, state of the art infrastructure, cutting edge laboratories and well qualified, dedicated faculty but also through a holistic set of life skills that will groom students to face the industry in years to come.</p>
-                    <button className="flex items-center gap-2 mt-8 hover:-translate-y-0.5 transition bg-white text-black  py-3 px-8 rounded-3xl  border-2 border-black text-lg"    onClick={() => window.open("https://docs.google.com/forms/u/0/d/e/1FAIpQLSekczarPQf-5IZ1Kf-6_eQhPtK34ShPaZfkURPQyjlcwtOIeQ/formResponse", "_blank")}>
+                    <button className="flex items-center gap-2 mt-8 hover:-translate-y-0.5 transition bg-white text-black  py-3 px-8 rounded-3xl  border-2 border-black text-lg"    onClick={()=>{navigate("/contact")}}>
                       
                          <AnimatedButton text="ENQUIRY"  />
                        

@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import About from "./components/About";
@@ -9,7 +9,6 @@ import Skiper from "./components/Skiper";
 import Achievement from "./components/Achievement";
 import Footer from "./components/Footer";
 import Detailed from "./pages/Detailed";
-
 import Review from "./components/Review";
 import Marque from "./components/Marque";
 import Team from "./components/Team";
@@ -17,6 +16,7 @@ import OwnerLogin from "./pages/owner/OwnerLogin";
 import OwnerDashboard from "./pages/owner/OwnerDashboard";
 import UserSearch from "./pages/user/UserSearch";
 import CoursesPage from "./pages/user/CoursesPage";
+import Contact from "./pages/user/Contact";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -27,10 +27,11 @@ const ProtectedRoute = ({ children }) => {
 function App() {
   return (
     <>
-      {/* Conditional Navbar - Don't show on certificate pages */}
+      {/* Conditional Navbar - Don't show on certificate pages and contact */}
       <Routes>
         <Route path="/owner/*" element={null} />
         <Route path="/certificate/*" element={null} />
+        <Route path="/contact" element={null} />
         <Route path="*" element={<Navbar />} />
       </Routes>
 
@@ -49,16 +50,14 @@ function App() {
               <Trusted />
               <Skiper />
               <Review/>
-               <Achievement />
+              <Achievement />
               <Team/>
-             
             </>
           }
         />
-                <Route path="/courses" element={<CoursesPage />} />
-
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/detail/:id" element={<Detailed />} />
-    
 
         {/* Certificate Management Routes */}
         <Route path="/certificate/search" element={<UserSearch />} />
@@ -73,10 +72,11 @@ function App() {
         />
       </Routes>
 
-      {/* Conditional Footer - Don't show on certificate pages */}
+      {/* Conditional Footer - Don't show on certificate pages and contact */}
       <Routes>
         <Route path="/owner/*" element={null} />
         <Route path="/certificate/*" element={null} />
+        <Route path="/contact" element={null} />
         <Route path="*" element={<Footer />} />
       </Routes>
     </>

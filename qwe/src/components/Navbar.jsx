@@ -3,13 +3,17 @@ import { HashLink } from "react-router-hash-link";
 
 import "../App.css";
 import AnimatedButton from "./v1/AnimatedButton";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+    const handleEnquiryClick = () => {
+   navigate("/contact")
   };
 
   return (
@@ -95,9 +99,9 @@ const Navbar = () => {
       </ul>
 
       {/* Desktop Button */}
-      <button
+      <button 
         className="bg-black text-white text-lg md:inline hidden font-semibold relative overflow-hidden w-40 h-11 rounded-full group hover:-translate-y-0.5"
-        onClick={() => window.open("https://docs.google.com/forms/u/0/d/e/1FAIpQLSekczarPQf-5IZ1Kf-6_eQhPtK34ShPaZfkURPQyjlcwtOIeQ/formResponse", "_blank")}
+        onClick={handleEnquiryClick}
       >
         <AnimatedButton text="ENQUIRY" />
       </button>
