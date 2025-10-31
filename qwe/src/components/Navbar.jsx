@@ -17,13 +17,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="h-[90px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
+    <nav className="h-[90px] relative w-full px-4 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
       {/* Logo */}
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1">
       <HashLink smooth to="/#">
         <img src="./images/logo.jpg" className=" h-17 lg:h-20" alt="logo" />
       </HashLink>
-<h1 className="big text-2xl block lg:hidden">Despa Classes</h1>
+<h1 className="big text-2xl block lg:hidden ">Despa Classes</h1>
 </div>
       {/* Desktop Menu */}
       <ul className="text-black md:flex hidden items-center gap-7 text-xl font-semibold ">
