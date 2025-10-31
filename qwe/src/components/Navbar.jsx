@@ -17,12 +17,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="h-[100px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
+    <nav className="h-[90px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
       {/* Logo */}
+      <div className="flex items-center gap-2">
       <HashLink smooth to="/#">
-        <img src="./images/logo.jpg" className="h-20" alt="logo" />
+        <img src="./images/logo.jpg" className=" h-17 lg:h-20" alt="logo" />
       </HashLink>
-
+<h1 className="big text-2xl block lg:hidden">Despa Classes</h1>
+</div>
       {/* Desktop Menu */}
       <ul className="text-black md:flex hidden items-center gap-7 text-xl font-semibold ">
         <li>
@@ -110,9 +112,9 @@ const Navbar = () => {
       <button
         aria-label="menu-btn"
         onClick={toggleMobileMenu}
-        className="menu-btn inline-block md:hidden active:scale-90 transition text-2xl"
+        className="menu-btn inline-block md:hidden active:scale-90 transition "
       >
-        <i className="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars text-3xl"></i>
       </button>
 
       {/* Mobile Menu */}
@@ -170,10 +172,7 @@ const Navbar = () => {
           
           <button 
             className="bg-white hover:-translate-y-0.5 transition text-gray-700 mt-6 inline md:hidden text-sm hover:opacity-90 active:scale-95 w-40 h-11 rounded-full"
-            onClick={() => {
-              toggleMobileMenu();
-              window.open("https://docs.google.com/forms/u/0/d/e/1FAIpQLSekczarPQf-5IZ1Kf-6_eQhPtK34ShPaZfkURPQyjlcwtOIeQ/formResponse", "_blank");
-            }}
+             onClick={handleEnquiryClick}
           >
             ENQUIRY
           </button>
